@@ -234,9 +234,3 @@ def FA_visualizer(params, analysis):
 
     fig.show()
     return 0
-
-filename = "17_FA_Input_str.txt"
-params = info_reader(filename)  # Gets reactor parameters
-analysis = FA_reader(filename)  # Gets FA map analysis
-FA_visualizer(params, analysis)
-
