@@ -5,7 +5,7 @@ A comprehensive Python-based toolkit for visualizing and analyzing nuclear react
 ## Features
 
 ### Initial Core Visualizer
-- Automated core map generation based on geometric constraints
+- Automated core map generation based on geometric constraints of core size
 - Quarter-symmetry visualization of reactor core
 - Detailed fuel assembly pin layout
 - Support for both even and odd number of assemblies
@@ -52,9 +52,9 @@ init_core_map(fuel_radius, gap, cladding_thickness, nPin,
 ```
 
 ## File Naming Conventions
-- Core map files: `map_input.txt` or `map_input_str.txt`
 - Fuel assembly files: Must follow format `nPin_<description>.txt`
-- Parameter file: `input.txt`
+- Guide tube or water rod in the FA visualizer must always be inputted as '0' or 'O' in the input map file
+
 
 ## Output Files
 - `max_core.txt`: Core map matrix
