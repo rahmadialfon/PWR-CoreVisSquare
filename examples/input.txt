@@ -1,0 +1,11 @@
+fuel_radius: 0.4096
+gap: 0.0084
+cladding_thickness: 0.0572
+nPin: 17
+fuel_to_moderator_ratio: 0.45
+core_radius: 170
+core_gap: 10.672447746993468
+active_core_radius: 159.32755225300653
+num_FA: 7
+FA_size: 21.344895493986936
+pitch_size: 1.2555820878815844
