@@ -31,7 +31,7 @@ A comprehensive Python-based toolkit for visualizing and analyzing nuclear react
 ## Installation Requirements
 
 ```bash
-pip install numpy plotly kaleido
+pip install numpy plotly
 ```
 
 ## Usage Example
