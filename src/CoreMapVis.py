@@ -208,9 +208,3 @@ def CoreMapVisualizer(analysis, params):
     fig.show()
 
     return 0
-
-# Example of Implementation
-params = info_reader("input.txt")
-# analysis = core_reader("map_input_str.txt")
-analysis = core_reader("map_input.txt")
-CoreMapVisualizer(analysis, params)
