@@ -378,6 +378,3 @@ nPin = 16       # 17x17 assembly typical for PWR
 fuel_to_moderator_ratio = 0.45  # typical PWR value
 core_radius = 170    # in cm
 core_gap_scale = 0.5 # Can be scaled according to the desired gap
-
-# Calculate the parameters
-pitch_size, core_gap, active_core_radius, num_FA, num_FA_layer, core_map, mat_FA = init_core_map(fuel_radius, gap, cladding_thickness, nPin, fuel_to_moderator_ratio, core_radius, core_gap_scale)
