@@ -51,6 +51,10 @@ init_core_map(fuel_radius, gap, cladding_thickness, nPin,
               fuel_to_moderator_ratio, core_radius, core_gap_scale)
 ```
 
+## Usage Examples in Jupyter Notebook
+
+There's an examples.ipynb that runs all three cases. Clone the repo and it should run smoothly.
+
 ## File Naming Conventions
 - Fuel assembly files: Must follow format `nPin_<description>.txt`
 - Guide tube or water rod in the FA visualizer must always be inputted as '0' or 'O' in the input map file
